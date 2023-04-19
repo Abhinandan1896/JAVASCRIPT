@@ -1,0 +1,92 @@
+/* css reset */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 100vh;
+    background-color: #85d5e2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* designing the weather app container */
+  .container {
+    font-weight: bold;
+    width: 700px;
+    height: 450px;
+    border: 5px solid ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    padding: 15px;
+  }
+  
+  h1{
+    font-size: 50px;
+    font-weight: bolder;
+    color: rgb(198, 62, 62);
+  }
+  
+  /* designing the search area */
+  .searchData {
+    border: 2px solid rgb(157, 34, 34);
+    display: flex;
+    gap: 1px;
+  }
+  
+  .searchData input {
+    border: orange solid;
+    padding: 8px;
+    font-size: larger;
+    font-weight: 600;
+    background-color: rgb(247, 234, 55);
+  }
+  
+  .searchData button {
+    border: orange solid;
+    padding: 8px 20px;
+    cursor: pointer;
+    font-size: larger;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    background: blueviolet;
+  }
+  button:hover{
+    background-color: rgb(55, 126, 233);
+    font-size: larger;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #f0f0f0;
+  }
+  
+  /* designing the city weather data */
+  .cityWeatherData {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .details {
+    display: flex;
+    align-items: center;
+    gap: 55px;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+  #logoImage{
+    width: 55px;
+  }
