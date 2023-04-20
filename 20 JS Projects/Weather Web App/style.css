@@ -17,8 +17,7 @@
   /* designing the weather app container */
   .container {
     font-weight: bold;
-    width: 700px;
-    height: 450px;
+    width: 600px;
     border: 5px solid ;
     display: flex;
     flex-direction: column;
