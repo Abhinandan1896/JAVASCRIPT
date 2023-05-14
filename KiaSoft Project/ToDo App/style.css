@@ -1,0 +1,73 @@
+body{
+    background:linear-gradient(135deg, #4470c7,#a63ac1);
+    width: 100%;
+    height: 100vh;
+    
+}
+.todo-app{
+    width: 100%;
+    max-width:540px;
+    background: #ffffff;
+    margin: 100px auto 20px;
+    padding: 40px 20px 70px;
+    border-radius: 10px;
+}
+.todo-app h2{
+    color: #002765;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: x-large;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #edeef0;
+    border-radius: 20px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+ul li{
+    list-style: none;
+    font-size: 17px;
+    padding: 12px 8px 12px 50px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+}
+ul li::before{
+    content: "";
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-bottom: 50%;
+    background-image: url(images/uncheaked\ png.png); /*it is for unchecked list to show at the start */
+    background-size: cover;
+    background-position: center;
+    top: 12px;
+    left: 8px;
+}
+ul li.checked{
+    color: #555;
+    text-decoration: line-through;
+}
+ul li.checked::before{
+    background-image: url(images/checked-img.png);
+}
+ul li span{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    color: #555;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+}
+ul li span:hover{
+    background: #edeef0;
+}

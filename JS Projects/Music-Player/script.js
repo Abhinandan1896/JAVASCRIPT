@@ -132,7 +132,7 @@ function setProgressBar(e){
  }
 
 
-//Even Listener for prev and next
+//Event Listener for prev and next
 prevBtn.addEventListener('click', prevSong);
 nextBtn.addEventListener('click', nextSong);
 music.addEventListener('ended', nextSong)
