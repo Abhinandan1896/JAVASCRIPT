@@ -1,0 +1,51 @@
+body{
+    background: linear-gradient(90deg, lightblue, darkblue);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #d7dfe4;
+}
+.digit{
+    font-size: 150px;
+    font-weight: bold;
+}
+.txt{
+    font-size: 40px;
+    font-weight: bold;
+}
+.btn-container{
+    text-align: center;
+    margin-top: 60px;
+}
+.btn{
+    border-width: 4px;
+    border-style: groove;
+    border-color: dimgray;
+    font-size: 25px;
+    margin: 0px 10px;
+    padding: 7px 25px;
+    font-weight: bolder;
+    background-color: gray;
+
+}
+#start{
+    background-color: green;
+}
+#stop{
+    background-color: red;
+}
+#reset{
+    background-color: rgb(21, 132, 175);
+}
+#start:hover{
+    background-color: rgb(15, 69, 15);
+}
+#stop:hover{
+    background-color: rgb(128, 13, 13);
+}
+#reset:hover{
+    background-color: rgb(6, 84, 115);
+}
