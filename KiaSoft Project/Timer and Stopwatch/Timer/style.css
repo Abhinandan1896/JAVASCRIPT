@@ -1,5 +1,5 @@
 body{
-    background:linear-gradient(275deg, blue,pink);
+    background:linear-gradient(90deg, blue,pink);
     display: flex;
     flex-direction: column;
     justify-content: center;
